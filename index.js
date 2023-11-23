@@ -52,19 +52,18 @@ const isValidResolution = (resolution, width, height) => {
     }
 }
 
-/**
- *
- * @param {*} data
- *
- * data={
- * path: "public/0x01A58",
- * inputFile: "0x01A58",
- * format: ".mkv",
- * resolutions: [], //['720p', '480p', '360p', '240p', '144p']
- * qualities: [], //Bitrates ['low', 'medium', 'high']
- * notification: emiter
- * }
- */
+
+ @param {*} data
+ 
+ data={
+ path: "https://drive.mohanishx1.workers.dev/0:/%20-%20Aneethi%20(2023)%20Tamil%20HQ%20HDRip%20-%201080p%20-%20HEVC%20-%20x265%20-%20(DD+5.1%20-%20192Kbps%20&%20AAC)%20-%201.6GB%20-%20ESub.mkv",
+ inputFile: "Aneethi",
+ format: ".mkv",
+ resolutions: ['720p', '480p', '360p', '240p', '144p'], //['720p', '480p', '360p', '240p', '144p']
+ qualities: ['low', 'medium', 'high'], //Bitrates ['low', 'medium', 'high']
+ notification: emiter
+ }
+
 
 const generate = async (data) => {
 
